@@ -28,17 +28,15 @@
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.10.1",
-    "jwtSecretKey": "NTYzZTlmNzhhNGQzYjliN2VlOTE5ZjZlNWRhYzNjZDRhNGI1ZGFiZTJjM2NlNGNiNzA4Mzg4MTZjZTBhNGU1YzkyMmQxNWM1MzQwZjhmNWI1NWNmOWY4ZGQ2MzkzMzVmZDkyZmI4MTQwMjhiMGExMjYwYTZiNDZiYjUzOTE2MGM=",
+    "jwtSecretKey": "ZjdmYTJhYjc2NTk0ZDY4MGNhYmY4YzVjY2Q4MWI1Y2Y0N2VlYzA5ZmU4OTZiOTZjMDY1YjJmMGExZDU4NDE3NTY4NDgyYWI1MzJmYmJkZjk0ZjE3MzM0MGY0MTFkNzNlMzk1ZmE3ZDVjMDA4ZjJkY2MzNTIyMzM4ZjY3YjdmZTQ=",
     "embeddableLaunchScript": false,
     "clientTheme": "none",
-    "creationTimestamp": 1598884682484,
+    "creationTimestamp": 1598884772562,
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
     "blueprints": [],
-    "prettierJava": true
-  },
-  "git-provider": "GitHub",
-  "git-company": "Ousmane23",
-  "repository-name": "mon-cv-jhipster"
+    "prettierJava": true,
+    "lastLiquibaseTimestamp": 1598973040000
+  }
 }

@@ -31,6 +31,7 @@
   },
   "defaultProject": "mon-cvjhipster",
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": false
   }
 }

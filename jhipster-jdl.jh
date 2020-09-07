@@ -1,0 +1,43 @@
+entity Commande{
+numeroCommande Integer required unique,
+dateCommande LocalDate required,
+description String
+}
+
+entity LigneCommande{
+numeroLigne Integer required unique,
+quantite Integer required,
+prixUnitaire Integer required
+}
+entity Produit {
+referenceProduit Integer required unique,
+libelle String required,
+prixUnitaire Integer required,
+estSoumisTVA Boolean
+}
+ 
+relationship ManyToOne{
+LigneCommande{produit} to Produit
+}
+
+relationship OneToMany {
+    Commande{lignesCommande} to LigneCommande{commande}
+}
+
+ 
+
+ 
+ 
+// Set pagination options
+// paginate JobHistory, Employee with infinite-scroll
+paginate all with pagination
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+service all with  serviceClass
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
